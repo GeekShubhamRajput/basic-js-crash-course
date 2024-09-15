@@ -145,21 +145,20 @@ if(num > 0){
 
 const color = 'red'
 switch (color){
-	case 'green':
-		console.log('Color is Green')
-		break
-	case 'red':
-		console.log('Color is Red')
-		break
-	case 'White':
-		console.log('Color is White')
-		break
-	default:
-		console.log('Not a color')
+  case 'green':
+    console.log('Color is Green')
+    break
+  case 'red':
+    console.log('Color is Red')
+    break
+  case 'White':
+    console.log('Color is White')
+    break
+  default:
+    console.log('Not a color')
 }
 
 // Looping code
-
 // for loop
 for(i=0; i <= 4; i++ ){
 	console.log('Iteration Number ' + i)
@@ -231,8 +230,8 @@ if(true){
 // console.log(aa) // aa is not defined
 
 function reduceThree(inputNum){
-	console.log(inputNum)
-	return (inputNum - 3)
+  console.log(inputNum)
+  return (inputNum - 3)
 }
 // console.log(inputNum) // inputNum is not defined
 
